@@ -13,7 +13,7 @@ Let `i` be a number; output the following:
 
 * If `i` is divisible by 3, print 'Fizz'
 * If `i` is divisible by 5, print 'Buzz'
-* If `i` is divisibly by 3 and 5, print 'Fizz Buzz'
+* If `i` is divisible by 3 and 5, print 'Fizz Buzz'
 * Otherwise, print the value of `i`
 
 So, starting with `i = 1` and counting until `i = 6` we would get:
@@ -85,7 +85,7 @@ public static void main(String[] args)
 ```
 
 This is the main method, the entry point of your program. You have installed Java,
-and it is a program that knows how to to compile and run your program — it calls
+and it is a program that knows how to compile and run your program — it calls
 method `main` in the file you choose to run.
 
 Later in this course, you'll learn what all that mess means.
@@ -114,3 +114,57 @@ Now select menu item
 Immediately, type the method name you want, maybe something like `doFizzBuzz`.  Rerun the program to verify.
 
 That's your first big IntelliJ trick! There are lots more.
+
+# Technical interviews  (and Java practice)
+
+Technical interviews for developer internships often have you write
+some code. It usually uses first- and second-year material, and many students
+practice these kinds of problems regularly over the academic year.
+
+For this week's homework, you'll solve two of them.
+
+## Multiples of 3 and 5
+
+Right-click on `src` and select `New —> Java Class`. Name it `Multiples`.
+
+We're looking for non-negative multiples of 3 or 5. The first four are 3, 5, 6, and 9, so there are
+four below 10. How many are below 1000?
+
+In `Multiples.java`, write a main program that prints how many multiples of 3 or 5 there are below 1000.
+Add this file to your project, commit, and push. If you don't get the right answer, that's okay!
+This is to get you to practice.
+
+
+## Multiples of 3 and 5
+
+Right-click on `src` and select `New —> Java Class`. Name it `Multiples`.
+
+We're looking for non-negative multiples of 3 or 5. The first four are 3, 5, 6, and 9, so there are
+four below 10. How many are below 1000?
+
+In `Multiples.java`, write a main program that prints how many multiples of 3 or 5 there are below 1000.
+Add this file to your project, commit, and push. If you don't get the right answer, that's okay!
+This is to get you to practice.
+
+## Reduce a number to 0
+
+Right-click on `src` and select `New —> Java Class`. Name it `Reduce`.
+
+Starting with a number n, if n is even divide it by 2. If n is odd, subtract 1. Repeat.
+
+if you start with n = 2, the answer is 2:
+
+```
+2 (even, divide by 2)
+1 (odd, subtract 1)
+0
+```
+
+In `Reduce.java`, write a main program that prints how many steps it takes to reach 0 if you start at 100.
+Add this file to your project, commit, and push. Again, if you don't get the right answer, that's okay!
+
+## Further practice
+
+[LeetCode](https://leetcode.com) is a very popular source of practice problems.
+[CoderByte](https://www.coderbyte.com/) is another. 
+If you want an internship, we recommend that you register and practice these problems over the year.
